@@ -1,7 +1,5 @@
 # SWE-DevOps
 
-# README: System Design Overview and Replication Steps
-
 ## Overview of the System Design
 
 This system architecture is designed to provide a scalable, secure, and cost-effective infrastructure for running modern web applications. The architecture includes key components such as a load balancer, application clusters, database clusters, caching systems, and monitoring tools, all connected seamlessly to ensure reliability and efficiency. To cater to budget constraints, a low-cost cloud instance or alternative provider is suggested for hosting the Kubernetes clusters.
@@ -138,8 +136,4 @@ This system architecture is designed to provide a scalable, secure, and cost-eff
 - Ensure that all configurations (e.g., environment variables, database credentials) are secured.
 - Regularly back up critical data to prevent loss in case of system failure.
 - Use a domain name and configure SSL certificates for secure application access.
-
----
-
-Feel free to reach out for assistance with deployment or optimizations!
 
